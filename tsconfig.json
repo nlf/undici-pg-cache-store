@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "include": [
+    "package.json",
+    ".*.js",
+    "**/*.js"
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+    "checkJs": true,
+    "allowJs": true,
+    "module": "nodenext",
+    "target": "esnext",
+    "skipLibCheck": true,
+    "strict": true,
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
+    "esModuleInterop": false,
+    "rewriteRelativeImportExtensions": true,
+    "resolveJsonModule": true
+  }
+}

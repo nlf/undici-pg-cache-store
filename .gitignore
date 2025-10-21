@@ -1,0 +1,14 @@
+# ignore everything in the root
+/*
+
+# keep these
+!/.gitignore
+!/.npmrc
+!/eslint.config.js
+!/lib
+!/package.json
+!/tsconfig.json
+!/tsconfig.build.json
+
+# don't commit the type definitions
+/lib/index.d.ts
